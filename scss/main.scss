@@ -1,7 +1,5 @@
-@import "variables.scss";
-@import "mixins.scss";
-@import "global.scss";
-@import "navbar.scss";
-@import "landing.scss";
-@import "portfolio.scss";
-@import "bootstrap-overrides.scss";
+// Use modern Sass module system
+@use 'sass:color';
+@use 'variables' as *;  // Load variables first
+@use 'mixins' as mix;   // Load mixins with namespace
+@use 'index' as *;      // Load components last
