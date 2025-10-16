@@ -81,3 +81,8 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $gray-900;
 }
+
+// Styling for the services section
+.service-box {
+  max-width: 400px;
+}
