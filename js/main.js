@@ -13,7 +13,6 @@ import '../scss/main.scss';
 // Add loaded class once styles are processed
 document.body.classList.add('loaded');
 
-// Import and set up vendor JS in the correct order (jQuery first)
 import $ from 'jquery';
 window.$ = window.jQuery = $;
 
@@ -24,5 +23,5 @@ import 'jquery.easing';
 import 'scrollreveal';
 import 'magnific-popup/dist/jquery.magnific-popup.js';
 
-// Finally import the site's behavior
+// Import the site's behavior
 import './script.js';
